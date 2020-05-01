@@ -49,7 +49,6 @@ function showLoader() {
 function filerPosts(event) {
     const term = event.target.value.toLowerCase();
     const posts = document.querySelectorAll('.post');
-    console.log('fuck', posts)
     posts.forEach((post) => {
         const title = post.querySelector('.post-title').innerText.toLowerCase();
         const body = post.querySelector('.post-body').innerText.toLowerCase();
@@ -58,7 +57,6 @@ function filerPosts(event) {
         } else {
             post.style.display = 'none';
         }
-
     })
 
 }
