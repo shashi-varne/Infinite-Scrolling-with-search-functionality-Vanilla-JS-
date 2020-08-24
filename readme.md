@@ -1,10 +1,13 @@
-## Infinite Scrolling & Filter
+# Infinite Scrolling & Filter
+ A vanilla JS web app to show posts with filtering functionality
+ 
+# Concepts used in this project
+* Async Await
+* fetch 
+* Scroll event detection
 
-Display blog posts from [jsonplaceholder](https://jsonplaceholder.typicode.com) and add infinite scroll to fetch posts and also add filter box
-
-## Project Specifications
-
-- Create UI & custom CSS loader animation
-- Fetch initial posts from API and display
-- Scroll down, show loader and fetch next set of posts
-- Add filtering for fetched posts
+# Screenshots of the project
+  * Main page
+![Screenshot (8)](https://user-images.githubusercontent.com/59960295/91010900-f4d1cc80-e600-11ea-8344-a35096664d5a.png)
+  * Filtering example
+![Screenshot (9)](https://user-images.githubusercontent.com/59960295/91010902-f69b9000-e600-11ea-9717-dfcfb7274b7c.png)
